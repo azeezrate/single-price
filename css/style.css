@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    width: 100%;
+}
+
+section.main{
+    height: 100vh;
+    background-color: #F0F0F0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.main .container{
+    flex-basis: 40%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section.main .container .join-community{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #ffffff;
+    padding: 40px;
+}
+
+section.main .container .join-community .title{
+    color: #3DA9A8;
+    margin-bottom: 20px;
+}
+
+section.main .container .join-community .sub-title{
+    color: #C9DF56;
+    margin-bottom: 10px;
+    /* margin: 10px 0px; */
+}
+
+section.main .container .join-community .detail{
+    color: #C1C4CA;
+}
+
+section.main .container .learn-more{
+    display: flex;
+}
+
+section.main .container .learn-more .subscription, 
+section.main .container .learn-more .why-us {
+    flex: 1;
+}
+
+section.main .container .learn-more .subscription{
+    border-bottom-left-radius: 5px;
+    padding: 40px;
+    background-color: #2BB3B1;
+}
+
+section.main .container .learn-more .subscription .title{
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+section.main .container .learn-more .subscription .pricing{
+    margin-bottom: 10px;
+}
+
+section.main .container .learn-more .subscription .pricing .price{
+    color: #ffffff;
+    font-size: 25px;
+}
+
+section.main .container .learn-more .subscription .pricing .duration{
+    color: #5CC9CC;
+}
+
+section.main .container .learn-more .subscription .detail{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+section.main .container .learn-more .subscription .signup{
+    width: 80%;
+    padding: 10px 40px;
+    color: #ffffff;
+    background-color: #BFDF32;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section.main .container .learn-more  .why-us{
+    border-bottom-right-radius: 5px;
+    background-color: #4ABEBD;
+    color: #ffffff;
+    padding: 40px;
+}
+
+section.main .container .learn-more  .why-us .title{
+    margin-bottom: 10px;
+}
